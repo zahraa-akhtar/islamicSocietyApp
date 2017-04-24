@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body{
+   font-family: 'Quicksand', sans-serif;
+   width: 414px;
+   margin: 0 auto;
+}
+
+/*all page specs*/
+.container, .eventsContainer{
+	background-color: white;
+	margin: 0 auto;
+	/*border: solid 1px grey;*/
+	padding-top: 0px;
+	overflow:hidden; 
+	width: 414px;
+}
+.container{
+	height: 736px;
+}
+
+.eventsContainer{
+	height: 890px;
+}
+
+.topBar h2{
+	float:left;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-color: #21D7C5;
+	margin: 0px;
+	padding: 5px; 
+}
+
+/*footer*/
+.footer, .eventsFooter, .footerText p{
+	float: left;
+	position:fixed;
+	height:50px;
+	width: 414px;
+	background:#21d7c5;
+	color: white;
+	text-align: center;
+	bottom: 0px;
+}
+
+.footer{
+	/*top:699px;*/
+}
+
+.eventsFooter{
+	/*top:748px;*/
+}
+
+.footerImage{
+	/*padding-right: 4px;*/
+	text-decoration: none;
+}
+.footerImage img{
+	padding-top: 6px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+/*image gallery*/
+.imageTiles{
+	width:100%;
+	float: left;
+	margin: 0 auto;
+}
+.image img {
+	display: block;
+	padding-left:4.5px;
+	padding-right:4.5px;
+}
+
+.topPadding img{
+	padding-top:8px;
+}
+
+.tile {
+    float: left;
+    width: 50%;
+}
+@media only screen and  (max-width: 960px) {
+	
+    .imageTiles {
+        width: 100%;
+		margin: 0 auto;
+    }
+	.tile{
+		width:100%;
+		float: none;
+	}
+	.tile img{
+		display: block;
+		margin: 0 auto;
+		float: left;
+	}
+}
+
+
+/*event page*/
+.eventImage img{
+	display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 414px;
+}
+.timetable{
+	
+	width: 414px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+thead{
+	border-bottom: 1px solid #CBCBCB;
+}
+
+td{
+	padding-top: 11px;
+	padding-bottom: 11px;
+	border: 1px solid #CBCBCB;
+	border-left: 0px;
+	text-align: center;
+	background-color: #D6F8F7;
+}
+th{
+	background-color: #A0E4DF;
+
+}
+.heading th{
+	margin:  0px;
+	border: 1px solid #CBCBCB;
+	border-left: 0px;
+}
+.jamaat{
+	border-right: 1px solid #CBCBCB;
+	padding: 3px;
+}
+
+/*.jamaatHeading thead table{
+	border: 1px solid black;
+}
+
+/*.jamaat, .jamaat01 p{
+	float: left;
+}
+
+.jamaat{
+	border-right: 1px solid black;
+	padding-right: 18.8%;
+	padding-left: 10%;
+}
+
+.jamaat01 p{
+	
+	padding-left: 8%;
+}
+*/
+
+
+/*contact page*/
+.contactTop{
+	margin-top: 5%;
+	margin-left: 2%;
+	background-color: #d6f8f7;
+	width: 380px;
+	float: left;
+	padding: 2%;
+}
+.contactTop, .contactBottom,{
+	
+	
+}
+.contactBottom{
+	width: 380px;
+	float: left;
+	padding: 2%;
+	margin-top: 5%;
+	margin-left: 2%;
+	background-color: #d6f8f7;
+}
+.committee{
+	margin-top: 2px;
+	font-weight: bold; 
+}
+.smallerFont{
+	font-size: 14px;
+}
+
+/*How To*/
+.howTo{
+	background-color: #d6f8f7;
+	width: 315px;
+	float: left;
+	padding: 10%;
+	margin: 2%;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.latestNews{
+	background-color: #d6f8f7;
+	width: 380px;
+	float: left;
+	padding: 2%;
+	margin: 2%;
+	text-align: left;
+	color: black;
+}
+.top{
+	margin-top: 3.5%; 
+}
+
+.quotesImages{
+	margin-top: 2.75%;
+	width: 50%;
+	float: left;
+	background-color: #d6f8f7;
+}
+
+.quotes{
+	width: 50%;
+	height: 202px;
+	font-size: 10px;
+	float: left;
+	margin-top: 2.75%;
+	background-color: #d6f8f7;
+}
+.quotes p{
+	margin-top: 2px;
+	width: 99%;
+}
+
+
+
+
